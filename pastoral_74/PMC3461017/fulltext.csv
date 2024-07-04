@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,23028602
+source,MED
+pmid,23028602
+pmcid,PMC3461017
+fullTextIdList,{'fullTextId': 'PMC3461017'}
+doi,10.1371/journal.pone.0044751
+title,Lactase persistence and lipid pathway selection in the Maasai.
+authorString,"Wagh K, Bhatia A, Alexe G, Reddy A, Ravikumar V, Seiler M, Boemo M, Yao M, Cronk L, Naqvi A, Ganesan S, Levine AJ, Bhanot G."
+authorList,"{'author': [{'fullName': 'Wagh K', 'firstName': 'Kshitij', 'lastName': 'Wagh', 'initials': 'K', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department of Physics, Rutgers University, Piscataway, New Jersey, United States of America.'}}}, {'fullName': 'Bhatia A', 'firstName': 'Aatish', 'lastName': 'Bhatia', 'initials': 'A'}, {'fullName': 'Alexe G', 'firstName': 'Gabriela', 'lastName': 'Alexe', 'initials': 'G'}, {'fullName': 'Reddy A', 'firstName': 'Anupama', 'lastName': 'Reddy', 'initials': 'A'}, {'fullName': 'Ravikumar V', 'firstName': 'Vijay', 'lastName': 'Ravikumar', 'initials': 'V'}, {'fullName': 'Seiler M', 'firstName': 'Michael', 'lastName': 'Seiler', 'initials': 'M'}, {'fullName': 'Boemo M', 'firstName': 'Michael', 'lastName': 'Boemo', 'initials': 'M'}, {'fullName': 'Yao M', 'firstName': 'Ming', 'lastName': 'Yao', 'initials': 'M'}, {'fullName': 'Cronk L', 'firstName': 'Lee', 'lastName': 'Cronk', 'initials': 'L'}, {'fullName': 'Naqvi A', 'firstName': 'Asad', 'lastName': 'Naqvi', 'initials': 'A'}, {'fullName': 'Ganesan S', 'firstName': 'Shridar', 'lastName': 'Ganesan', 'initials': 'S'}, {'fullName': 'Levine AJ', 'firstName': 'Arnold J', 'lastName': 'Levine', 'initials': 'AJ'}, {'fullName': 'Bhanot G', 'firstName': 'Gyan', 'lastName': 'Bhanot', 'initials': 'G'}]}"
+dataLinksTagsList,"{'dataLinkstag': ['altmetrics', 'supporting_data']}"
+journalInfo,"{'issue': '9', 'volume': '7', 'journalIssueId': '1963765', 'dateOfPublication': '2012', 'monthOfPublication': '0', 'yearOfPublication': '2012', 'printPublicationDate': '2012-01-01', 'journal': {'title': 'PloS one', 'ISOAbbreviation': 'PLoS One', 'medlineAbbreviation': 'PLoS One', 'NLMid': '101285081', 'ISSN': '1932-6203', 'ESSN': '1932-6203'}}"
+pubYear,2012
+pageInfo,e44751
+abstractText,"The Maasai are a pastoral people in Kenya and Tanzania, whose traditional diet of milk, blood and meat is rich in lactose, fat and cholesterol. In spite of this, they have low levels of blood cholesterol, and seldom suffer from gallstones or cardiac diseases. Field studies in the 1970s suggested that the Maasai have a genetic adaptation for cholesterol homeostasis. Analysis of HapMap 3 data using Fixation Index (Fst) and two metrics of haplotype diversity: the integrated Haplotype Score (iHS) and the Cross Population Extended Haplotype Homozygosity (XP-EHH), identified genomic regions and single nucleotide polymorphisms (SNPs) as strong candidates for recent selection for lactase persistence and cholesterol regulation in 143-156 founder individuals from the Maasai population in Kinyawa, Kenya (MKK). The non-synonmous SNP with the highest genome-wide Fst was the TC polymorphism at rs2241883 in Fatty Acid Binding Protein 1(FABP1), known to reduce low density lipoprotein and tri-glyceride levels in Europeans. The strongest signal identified by all three metrics was a 1.7 Mb region on Chr2q21. This region contains the genes LCT (Lactase) and MCM6 (Minichromosome Maintenance Complex Component) involved in lactase persistence, and the gene Rab3GAP1 (Rab3 GTPase-activating Protein Catalytic Subunit), which contains polymorphisms associated with total cholesterol levels in a genome-wide association study of >100,000 individuals of European ancestry. Sanger sequencing of DNA from six MKK samples showed that the GC-14010 polymorphism in the MCM6 gene, known to be associated with lactase persistence in Africans, is segregating in MKK at high frequency (∼58%). The Cytochrome P450 Family 3 Subfamily A (CYP3A) cluster of genes, involved in cholesterol metabolism, was identified by Fst and iHS as candidate loci under selection. Overall, our study identified several specific genomic regions under selection in the Maasai which contain polymorphisms in genes associated with lactase persistence and cholesterol regulation."
+affiliation,"Department of Physics, Rutgers University, Piscataway, New Jersey, United States of America."
+publicationStatus,ppublish
+language,eng
+pubModel,Print-Electronic
+pubTypeList,"{'pubType': ['research-article', 'Journal Article']}"
+meshHeadingList,"{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Cholesterol', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'ME', 'qualifierName': 'metabolism', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'rab3 GTP-Binding Proteins', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Lactase', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'Y'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Cell Cycle Proteins', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Gene Frequency', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Haplotypes', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Polymorphism, Single Nucleotide', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Kenya'}, {'majorTopic_YN': 'N', 'descriptorName': 'Tanzania'}, {'majorTopic_YN': 'N', 'descriptorName': 'Lipid Metabolism', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}, {'abbreviation': 'PH', 'qualifierName': 'physiology', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'N', 'descriptorName': 'Fatty Acid-Binding Proteins', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Cytochrome P-450 CYP3A', 'meshQualifierList': {'meshQualifier': {'abbreviation': 'GE', 'qualifierName': 'genetics', 'majorTopic_YN': 'N'}}}, {'majorTopic_YN': 'N', 'descriptorName': 'Minichromosome Maintenance Complex Component 6'}]}"
+chemicalList,"{'chemical': [{'name': 'fatty acid-binding proteins', 'registryNumber': '0'}, {'name': 'CYP3A protein, human', 'registryNumber': 'EC 1.14.14.1'}, {'name': 'Cell Cycle Proteins', 'registryNumber': '0'}, {'name': 'Lactase', 'registryNumber': 'EC 3.2.1.108'}, {'name': 'cytochrome P-450 CYP3A', 'registryNumber': 'EC 1.14.14.1'}, {'name': 'rab3 GTP-Binding Proteins', 'registryNumber': 'EC 3.6.5.2'}, {'name': 'FABP1 protein, human', 'registryNumber': '0'}, {'name': 'Cholesterol', 'registryNumber': '97C5T2UQ7J'}, {'name': 'Minichromosome Maintenance Complex Component 6', 'registryNumber': 'EC 3.6.4.12'}, {'name': 'MCM6 protein, human', 'registryNumber': 'EC 3.6.4.12'}]}"
+subsetList,"{'subset': {'code': 'IM', 'name': 'Index Medicus'}}"
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0044751&type=printable'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23028602/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23028602/pdf/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pone.0044751'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3461017'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3461017?pdf=render'}]}"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,30
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,Y
+tmAccessionTypeList,"{'accessionType': ['refsnp', 'igsr']}"
+dateOfCompletion,2013-03-06
+dateOfCreation,2012-10-03
+firstIndexDate,2012-10-04
+fullTextReceivedDate,2020-07-08
+dateOfRevision,2023-11-05
+electronicPublicationDate,2012-09-28
+firstPublicationDate,2012-09-28
