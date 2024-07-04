@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,25400331
+source,MED
+pmid,25400331
+pmcid,PMC4230704
+fullTextIdList,{'fullTextId': 'PMC4230704'}
+doi,10.1016/j.gloenvcha.2013.02.010
+title,Adaptive Capacity in Tanzanian Maasailand: Changing strategies to cope with drought in fragmented landscapes.
+authorString,"Goldman MJ, Riosmena F."
+authorList,"{'author': [{'fullName': 'Goldman MJ', 'firstName': 'Mara J', 'lastName': 'Goldman', 'initials': 'MJ', 'authorId': {'@type': 'ORCID', '#text': '0000-0001-9864-256X'}, 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department of Geography, Faculty Research Associate, Environment and Society Program, Institute for, Behavioral Science, University of Colorado at Boulder, Guggenheim 110; 260 UCB, Boulder, Colorado 80309-0260 USA.'}}}, {'fullName': 'Riosmena F', 'firstName': 'Fernando', 'lastName': 'Riosmena', 'initials': 'F', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department of Geography, Faculty, Population Program, Institute of Behavioral Science University of Colorado at Boulder, 1440 15 St. 483 UCB, Boulder, Colorado 80309-0483 USA.'}}}]}"
+authorIdList,"{'authorId': {'@type': 'ORCID', '#text': '0000-0001-9864-256X'}}"
+dataLinksTagsList,{'dataLinkstag': 'altmetrics'}
+journalInfo,"{'issue': '3', 'volume': '23', 'journalIssueId': '2220046', 'dateOfPublication': '2013 Jun', 'monthOfPublication': '6', 'yearOfPublication': '2013', 'printPublicationDate': '2013-06-01', 'journal': {'title': 'Global environmental change : human and policy dimensions', 'ISOAbbreviation': 'Glob Environ Change', 'medlineAbbreviation': 'Glob Environ Change', 'NLMid': '9884942', 'ISSN': '0959-3780'}}"
+pubYear,2013
+pageInfo,588-597
+abstractText,"This study examines the ways in which the adaptive capacity of households to climatic events varies within communities and is mediated by institutional and landscape changes. We present qualitative and quantitative data from two Maasai communities differentially exposed to the devastating drought of 2009 in Northern Tanzania. We show how rangeland fragmentation combined with the decoupling of institutions and landscapes are affecting pastoralists ability to cope with drought. Our data highlight that mobility remains a key coping mechanism for pastoralists to avoid cattle loss during a drought. However, mobility is now happening in new ways that require not only large amounts of money but new forms of knowledge and connections outside of customary reciprocity networks. Those least affected by the drought, in terms of cattle lost, were those with large herds who were able to sell some of their cattle and to pay for private access to pastures outside of Maasai areas. Drawing on an entitlements framework, we argue that the new coping mechanisms are not available to all, could be making some households more vulnerable to climate change, and reduce the adaptive capacity of the overall system as reciprocity networks and customary institutions are weakened. As such, we posit that adaptive capacity to climate change is uneven within and across communities, is scale-dependent, and is intimately tied to institutional and landscape changes."
+affiliation,"Department of Geography, Faculty Research Associate, Environment and Society Program, Institute for, Behavioral Science, University of Colorado at Boulder, Guggenheim 110; 260 UCB, Boulder, Colorado 80309-0260 USA."
+publicationStatus,ppublish
+language,eng
+pubModel,Print
+pubTypeList,"{'pubType': ['research-article', 'Journal Article']}"
+grantsList,"{'grant': [{'grantId': 'R24 HD066613', 'agency': 'NICHD NIH HHS', 'acronym': 'HD', 'orderIn': '0'}, {'grantId': 'R21 HD51146', 'agency': 'Eunice Kennedy Shriver NICHD-funded University of Colorado Population Center', 'orderIn': '0'}, {'grantId': 'P2C HD066613', 'agency': 'NICHD NIH HHS', 'acronym': 'HD', 'orderIn': '0'}, {'grantId': 'R21 HD051146', 'agency': 'NICHD NIH HHS', 'acronym': 'HD', 'orderIn': '0'}]}"
+keywordList,"{'keyword': ['Mobility', 'Africa', 'Adaptive capacity', 'Institutions', 'Coping Mechanisms', 'Maasai', 'Pastoralism']}"
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://europepmc.org/articles/pmc4230704?pdf=render'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1016/j.gloenvcha.2013.02.010'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4230704'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4230704?pdf=render'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1016/j.gloenvcha.2013.02.010'}]}"
+isOpenAccess,N
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,20
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+hasEvaluations,N
+authMan,Y
+epmcAuthMan,N
+nihAuthMan,Y
+manuscriptId,NIHMS603362
+hasTMAccessionNumbers,N
+dateOfCreation,2014-11-18
+firstIndexDate,2014-11-18
+fullTextReceivedDate,2020-10-20
+dateOfRevision,2019-11-20
+firstPublicationDate,2013-06-01
