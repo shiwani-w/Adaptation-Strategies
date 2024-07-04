@@ -1,0 +1,306 @@
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\id_74.txt -o "pastoral_74" -c -p --makehtml -x --save_query
+INFO: Total Hits are 0
+WARNING: Could not find more papers
+Traceback (most recent call last):
+  File "C:\Users\shiwa\Documents\semantic\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\shiwa\Documents\semantic\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\shiwa\Documents\semantic\Scripts\pygetpapers.exe\__main__.py", line 7, in <module>
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 537, in main
+    callpygetpapers.create_argparser()
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 530, in create_argparser
+    self.runs_pygetpapers_for_given_args(self.query_namespace)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 312, in runs_pygetpapers_for_given_args
+    api_handler.check_query_logic_and_run()
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 204, in check_query_logic_and_run
+    self.api.apipaperdownload(self.query_namespace)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 324, in apipaperdownload
+    self.run_eupmc_query_and_get_metadata(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 289, in run_eupmc_query_and_get_metadata
+    metadata_dictionary = self.query(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 125, in query
+    list_of_paper_metadata = self._remove_extra_papers_from_list(cutoff_size, list_of_paper_metadata)
+UnboundLocalError: local variable 'list_of_paper_metadata' referenced before assignment
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\pmcid_final.txt -n
+INFO: Total number of hits for the query are 59
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\id_74.txt -n
+INFO: Total number of hits for the query are 0
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\pmcid_final.txt -n
+INFO: Total number of hits for the query are 74
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\pmcid_final.txt -o "pastoral_74" -c -p --makehtml -x --save_query
+
+INFO: Total Hits are 74
+WARNING: Could not find more papers
+74it [00:00, ?it/s]
+INFO: Saving XML files to C:\Users\shiwa\pastoral_74\*\fulltext.xml
+  0%|                                                                                                        | 0/74 [00:00<?, ?it/s]INFO: Wrote the pdf file for PMC10967291
+  1%|█▎                                                                                              | 1/74 [00:04<05:54,  4.86s/it]INFO: Wrote the pdf file for PMC11013201
+  3%|██▌                                                                                             | 2/74 [00:10<06:10,  5.15s/it]INFO: Wrote the pdf file for PMC10882051
+INFO: Wrote the pdf file for PMC10882051
+  4%|███▉                                                                                            | 3/74 [00:24<11:14,  9.50s/it]INFO: Wrote the pdf file for PMC9374472
+  5%|█████▏                                                                                          | 4/74 [00:34<11:12,  9.61s/it]INFO: Wrote the pdf file for PMC10018940
+INFO: Wrote the pdf file for PMC10018940
+  7%|██████▍                                                                                         | 5/74 [00:43<10:52,  9.46s/it]INFO: Wrote the pdf file for PMC10457510
+INFO: Wrote the pdf file for PMC10457510
+  8%|███████▊                                                                                        | 6/74 [00:50<09:27,  8.35s/it]INFO: Wrote the pdf file for PMC10557253
+INFO: Wrote the pdf file for PMC10557253
+  9%|█████████                                                                                       | 7/74 [01:07<12:41, 11.37s/it]INFO: Wrote the pdf file for PMC10978757
+ 11%|██████████▍                                                                                     | 8/74 [01:13<10:28,  9.53s/it]INFO: Wrote the pdf file for PMC10096579
+INFO: Wrote the pdf file for PMC10096579
+ 12%|███████████▋                                                                                    | 9/74 [01:18<08:55,  8.25s/it]INFO: Wrote the pdf file for PMC9623530
+ 14%|████████████▊                                                                                  | 10/74 [01:23<07:40,  7.19s/it]INFO: Wrote the pdf file for PMC8752612
+INFO: Wrote the pdf file for PMC8752612
+ 15%|██████████████                                                                                 | 11/74 [01:38<10:09,  9.67s/it]INFO: Wrote the pdf file for PMC9388360
+INFO: Wrote the pdf file for PMC9388360
+ 16%|███████████████▍                                                                               | 12/74 [01:48<10:04,  9.75s/it]INFO: Wrote the pdf file for PMC9465664
+INFO: Wrote the pdf file for PMC9465664
+ 18%|████████████████▋                                                                              | 13/74 [02:00<10:30, 10.34s/it]INFO: Wrote the pdf file for PMC10232045
+INFO: Wrote the pdf file for PMC10232045
+ 19%|█████████████████▉                                                                             | 14/74 [02:06<09:10,  9.17s/it]INFO: Wrote the pdf file for PMC9094512
+INFO: Wrote the pdf file for PMC9094512
+ 20%|███████████████████▎                                                                           | 15/74 [02:16<09:12,  9.37s/it]INFO: Wrote the pdf file for PMC8287776
+INFO: Wrote the pdf file for PMC8287776
+ 22%|████████████████████▌                                                                          | 16/74 [02:25<08:49,  9.12s/it]INFO: Wrote the pdf file for PMC7445821
+ 24%|███████████████████████                                                                        | 18/74 [02:29<05:09,  5.53s/it]INFO: Wrote the pdf file for PMC9791103
+INFO: Wrote the pdf file for PMC9791103
+ 27%|█████████████████████████▋                                                                     | 20/74 [02:38<04:05,  4.55s/it]INFO: Wrote the pdf file for PMC8585949
+INFO: Wrote the pdf file for PMC8585949
+ 28%|██████████████████████████▉                                                                    | 21/74 [03:07<10:38, 12.04s/it]INFO: Wrote the pdf file for PMC9547508
+ 30%|████████████████████████████▏                                                                  | 22/74 [03:12<08:32,  9.85s/it]INFO: Wrote the pdf file for PMC8897645
+ 31%|█████████████████████████████▌                                                                 | 23/74 [03:18<07:27,  8.77s/it]INFO: Wrote the pdf file for PMC8560853
+INFO: Wrote the pdf file for PMC8560853
+ 32%|██████████████████████████████▊                                                                | 24/74 [03:46<12:05, 14.50s/it]INFO: Wrote the pdf file for PMC9582163
+INFO: Wrote the pdf file for PMC9582163
+ 34%|████████████████████████████████                                                               | 25/74 [03:51<09:29, 11.62s/it]INFO: Wrote the pdf file for PMC8874271
+INFO: Wrote the pdf file for PMC8874271
+ 35%|█████████████████████████████████▍                                                             | 26/74 [04:00<08:34, 10.71s/it]INFO: Wrote the pdf file for PMC8275782
+INFO: Wrote the pdf file for PMC8275782
+ 36%|██████████████████████████████████▋                                                            | 27/74 [04:23<11:24, 14.57s/it]INFO: Wrote the pdf file for PMC6867603
+INFO: Wrote the pdf file for PMC6867603
+ 38%|███████████████████████████████████▉                                                           | 28/74 [04:30<09:16, 12.09s/it]INFO: Wrote the pdf file for PMC8158971
+INFO: Wrote the pdf file for PMC8158971
+ 39%|█████████████████████████████████████▏                                                         | 29/74 [04:35<07:33, 10.07s/it]INFO: Wrote the pdf file for PMC10118306
+INFO: Wrote the pdf file for PMC10118306
+ 41%|██████████████████████████████████████▌                                                        | 30/74 [04:41<06:36,  9.02s/it]INFO: Wrote the pdf file for PMC7841170
+INFO: Wrote the pdf file for PMC7841170
+ 42%|███████████████████████████████████████▊                                                       | 31/74 [04:52<06:48,  9.50s/it]INFO: Wrote the pdf file for PMC7511295
+INFO: Wrote the pdf file for PMC7511295
+ 43%|█████████████████████████████████████████                                                      | 32/74 [05:09<06:46,  9.68s/it]
+Traceback (most recent call last):
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\shiwa\Documents\semantic\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\shiwa\Documents\semantic\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\shiwa\Documents\semantic\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:997)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='bmcgenomics.biomedcentral.com', port=443): Max retries exceeded with url: /track/pdf/10.1186/s12864-019-6296-7 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shiwa\Documents\semantic\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\shiwa\Documents\semantic\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\shiwa\Documents\semantic\Scripts\pygetpapers.exe\__main__.py", line 7, in <module>
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 537, in main
+    callpygetpapers.create_argparser()
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 530, in create_argparser
+    self.runs_pygetpapers_for_given_args(self.query_namespace)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 312, in runs_pygetpapers_for_given_args
+    api_handler.check_query_logic_and_run()
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\pygetpapers.py", line 204, in check_query_logic_and_run
+    self.api.apipaperdownload(self.query_namespace)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 324, in apipaperdownload
+    self.run_eupmc_query_and_get_metadata(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 296, in run_eupmc_query_and_get_metadata
+    self.get_supplementary_metadata(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 484, in get_supplementary_metadata
+    self._make_pdf(getpdf, identifier_for_paper, metadata_dictionary, condition_to_download_pdf)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\repository\europe_pmc.py", line 539, in _make_pdf
+    self.download_tools.queries_the_url_and_writes_response_to_destination(
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\pygetpapers\download_tools.py", line 236, in queries_the_url_and_writes_response_to_destination
+    response = requests.get(url)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\shiwa\Documents\semantic\lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='bmcgenomics.biomedcentral.com', port=443): Max retries exceeded with url: /track/pdf/10.1186/s12864-019-6296-7 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+
+C:\Users\shiwa>pygetpapers --terms C:\Users\shiwa\pastoral_full_606\pmcid_final.txt -o "pastoral_74" -c -p --makehtml -x --save_query
+
+INFO: Total Hits are 74
+WARNING: Could not find more papers
+74it [00:00, ?it/s]
+INFO: Saving XML files to C:\Users\shiwa\pastoral_74\*\fulltext.xml
+  0%|                                                                                                        | 0/74 [00:00<?, ?it/s]INFO: Wrote the pdf file for PMC10967291
+  1%|█▎                                                                                              | 1/74 [00:04<04:55,  4.05s/it]INFO: Wrote the pdf file for PMC11013201
+  3%|██▌                                                                                             | 2/74 [00:09<06:04,  5.06s/it]INFO: Wrote the pdf file for PMC10882051
+INFO: Wrote the pdf file for PMC10882051
+  4%|███▉                                                                                            | 3/74 [00:23<10:53,  9.20s/it]INFO: Wrote the pdf file for PMC9374472
+  5%|█████▏                                                                                          | 4/74 [00:33<10:50,  9.29s/it]INFO: Wrote the pdf file for PMC10018940
+INFO: Wrote the pdf file for PMC10018940
+  7%|██████▍                                                                                         | 5/74 [00:40<09:56,  8.64s/it]INFO: Wrote the pdf file for PMC10457510
+INFO: Wrote the pdf file for PMC10457510
+  8%|███████▊                                                                                        | 6/74 [00:45<08:07,  7.17s/it]INFO: Wrote the pdf file for PMC10557253
+INFO: Wrote the pdf file for PMC10557253
+  9%|█████████                                                                                       | 7/74 [00:56<09:34,  8.57s/it]INFO: Wrote the pdf file for PMC10978757
+ 11%|██████████▍                                                                                     | 8/74 [01:00<07:54,  7.18s/it]INFO: Wrote the pdf file for PMC10096579
+INFO: Wrote the pdf file for PMC10096579
+ 12%|███████████▋                                                                                    | 9/74 [01:05<06:53,  6.37s/it]INFO: Wrote the pdf file for PMC9623530
+ 14%|████████████▊                                                                                  | 10/74 [01:09<05:52,  5.51s/it]INFO: Wrote the pdf file for PMC8752612
+INFO: Wrote the pdf file for PMC8752612
+ 15%|██████████████                                                                                 | 11/74 [01:27<10:02,  9.57s/it]INFO: Wrote the pdf file for PMC9388360
+INFO: Wrote the pdf file for PMC9388360
+ 16%|███████████████▍                                                                               | 12/74 [01:35<09:20,  9.05s/it]INFO: Wrote the pdf file for PMC9465664
+INFO: Wrote the pdf file for PMC9465664
+ 18%|████████████████▋                                                                              | 13/74 [01:44<09:12,  9.06s/it]INFO: Wrote the pdf file for PMC10232045
+INFO: Wrote the pdf file for PMC10232045
+ 19%|█████████████████▉                                                                             | 14/74 [01:51<08:18,  8.31s/it]INFO: Wrote the pdf file for PMC9094512
+INFO: Wrote the pdf file for PMC9094512
+ 20%|███████████████████▎                                                                           | 15/74 [01:58<07:48,  7.94s/it]INFO: Wrote the pdf file for PMC8287776
+INFO: Wrote the pdf file for PMC8287776
+ 22%|████████████████████▌                                                                          | 16/74 [02:06<07:50,  8.11s/it]INFO: Wrote the pdf file for PMC7445821
+ 24%|███████████████████████                                                                        | 18/74 [02:10<04:27,  4.77s/it]INFO: Wrote the pdf file for PMC9791103
+INFO: Wrote the pdf file for PMC9791103
+ 27%|█████████████████████████▋                                                                     | 20/74 [02:18<03:47,  4.22s/it]INFO: Wrote the pdf file for PMC8585949
+INFO: Wrote the pdf file for PMC8585949
+ 28%|██████████████████████████▉                                                                    | 21/74 [02:52<11:32, 13.07s/it]INFO: Wrote the pdf file for PMC9547508
+ 30%|████████████████████████████▏                                                                  | 22/74 [02:57<09:06, 10.51s/it]INFO: Wrote the pdf file for PMC8897645
+ 31%|█████████████████████████████▌                                                                 | 23/74 [03:09<09:28, 11.14s/it]INFO: Wrote the pdf file for PMC8560853
+INFO: Wrote the pdf file for PMC8560853
+ 32%|██████████████████████████████▊                                                                | 24/74 [03:28<11:05, 13.31s/it]INFO: Wrote the pdf file for PMC9582163
+INFO: Wrote the pdf file for PMC9582163
+ 34%|████████████████████████████████                                                               | 25/74 [03:33<08:53, 10.89s/it]INFO: Wrote the pdf file for PMC8874271
+INFO: Wrote the pdf file for PMC8874271
+ 35%|█████████████████████████████████▍                                                             | 26/74 [03:41<08:08, 10.18s/it]INFO: Wrote the pdf file for PMC8275782
+INFO: Wrote the pdf file for PMC8275782
+ 36%|██████████████████████████████████▋                                                            | 27/74 [03:54<08:25, 10.76s/it]INFO: Wrote the pdf file for PMC6867603
+INFO: Wrote the pdf file for PMC6867603
+ 38%|███████████████████████████████████▉                                                           | 28/74 [04:00<07:19,  9.55s/it]INFO: Wrote the pdf file for PMC8158971
+INFO: Wrote the pdf file for PMC8158971
+ 39%|█████████████████████████████████████▏                                                         | 29/74 [04:06<06:16,  8.37s/it]INFO: Wrote the pdf file for PMC10118306
+INFO: Wrote the pdf file for PMC10118306
+ 41%|██████████████████████████████████████▌                                                        | 30/74 [04:11<05:26,  7.41s/it]INFO: Wrote the pdf file for PMC7841170
+INFO: Wrote the pdf file for PMC7841170
+ 42%|███████████████████████████████████████▊                                                       | 31/74 [04:23<06:20,  8.84s/it]INFO: Wrote the pdf file for PMC7511295
+INFO: Wrote the pdf file for PMC7511295
+ 43%|█████████████████████████████████████████                                                      | 32/74 [04:34<06:39,  9.52s/it]INFO: Wrote the pdf file for PMC6888939
+INFO: Wrote the pdf file for PMC6888939
+ 45%|██████████████████████████████████████████▎                                                    | 33/74 [04:55<08:42, 12.73s/it]INFO: Wrote the pdf file for PMC6167352
+INFO: Wrote the pdf file for PMC6167352
+ 46%|███████████████████████████████████████████▋                                                   | 34/74 [05:04<07:53, 11.84s/it]INFO: Wrote the pdf file for PMC6521592
+ 47%|████████████████████████████████████████████▉                                                  | 35/74 [05:09<06:12,  9.55s/it]INFO: Wrote the pdf file for PMC7447058
+INFO: Wrote the pdf file for PMC7447058
+ 49%|██████████████████████████████████████████████▏                                                | 36/74 [05:14<05:17,  8.35s/it]INFO: Wrote the pdf file for PMC7641598
+INFO: Wrote the pdf file for PMC7641598
+ 50%|███████████████████████████████████████████████▌                                               | 37/74 [05:25<05:35,  9.07s/it]INFO: Wrote the pdf file for PMC6393766
+INFO: Wrote the pdf file for PMC6393766
+ 51%|████████████████████████████████████████████████▊                                              | 38/74 [05:29<04:31,  7.54s/it]INFO: Wrote the pdf file for PMC6735883
+INFO: Wrote the pdf file for PMC6735883
+ 53%|██████████████████████████████████████████████████                                             | 39/74 [05:34<03:59,  6.83s/it]INFO: Wrote the pdf file for PMC5874267
+INFO: Wrote the pdf file for PMC5874267
+ 54%|███████████████████████████████████████████████████▎                                           | 40/74 [06:48<15:16, 26.96s/it]INFO: Wrote the pdf file for PMC7773236
+INFO: Wrote the pdf file for PMC7773236
+ 55%|████████████████████████████████████████████████████▋                                          | 41/74 [06:53<11:16, 20.50s/it]INFO: Wrote the pdf file for PMC7773237
+INFO: Wrote the pdf file for PMC7773237
+ 57%|█████████████████████████████████████████████████████▉                                         | 42/74 [06:59<08:36, 16.14s/it]INFO: Wrote the pdf file for PMC6850509
+INFO: Wrote the pdf file for PMC6850509
+ 58%|███████████████████████████████████████████████████████▏                                       | 43/74 [07:03<06:26, 12.47s/it]INFO: Wrote the pdf file for PMC6786613
+INFO: Wrote the pdf file for PMC6786613
+ 61%|█████████████████████████████████████████████████████████▊                                     | 45/74 [07:11<03:45,  7.77s/it]INFO: Wrote the pdf file for PMC5299638
+INFO: Wrote the pdf file for PMC5299638
+ 62%|███████████████████████████████████████████████████████████                                    | 46/74 [07:35<05:53, 12.62s/it]INFO: Wrote the pdf file for PMC7186082
+ 65%|█████████████████████████████████████████████████████████████▌                                 | 48/74 [07:41<03:16,  7.55s/it]INFO: Wrote the pdf file for PMC5496975
+INFO: Wrote the pdf file for PMC5496975
+ 66%|██████████████████████████████████████████████████████████████▉                                | 49/74 [07:48<03:05,  7.42s/it]INFO: Wrote the pdf file for PMC6304945
+INFO: Wrote the pdf file for PMC6304945
+ 68%|████████████████████████████████████████████████████████████████▏                              | 50/74 [07:52<02:33,  6.38s/it]INFO: Wrote the pdf file for PMC7491742
+INFO: Wrote the pdf file for PMC7491742
+ 69%|█████████████████████████████████████████████████████████████████▍                             | 51/74 [07:58<02:23,  6.26s/it]INFO: Wrote the pdf file for PMC7790420
+INFO: Wrote the pdf file for PMC7790420
+ 70%|██████████████████████████████████████████████████████████████████▊                            | 52/74 [08:05<02:21,  6.41s/it]INFO: Wrote the pdf file for PMC5120021
+INFO: Wrote the pdf file for PMC5120021
+ 72%|████████████████████████████████████████████████████████████████████                           | 53/74 [08:16<02:46,  7.92s/it]INFO: Wrote the pdf file for PMC4805278
+INFO: Wrote the pdf file for PMC4805278
+ 73%|█████████████████████████████████████████████████████████████████████▎                         | 54/74 [08:20<02:17,  6.86s/it]INFO: Wrote the pdf file for PMC5334672
+INFO: Wrote the pdf file for PMC5334672
+ 74%|██████████████████████████████████████████████████████████████████████▌                        | 55/74 [08:26<02:00,  6.37s/it]INFO: Wrote the pdf file for PMC6922353
+INFO: Wrote the pdf file for PMC6922353
+ 76%|███████████████████████████████████████████████████████████████████████▉                       | 56/74 [08:33<01:59,  6.62s/it]INFO: Wrote the pdf file for PMC6341659
+INFO: Wrote the pdf file for PMC6341659
+ 77%|█████████████████████████████████████████████████████████████████████████▏                     | 57/74 [08:46<02:24,  8.53s/it]INFO: Wrote the pdf file for PMC8419441
+INFO: Wrote the pdf file for PMC8419441
+ 78%|██████████████████████████████████████████████████████████████████████████▍                    | 58/74 [08:57<02:28,  9.26s/it]INFO: Wrote the pdf file for PMC6367989
+INFO: Wrote the pdf file for PMC6367989
+ 80%|███████████████████████████████████████████████████████████████████████████▋                   | 59/74 [09:02<02:01,  8.10s/it]INFO: Wrote the pdf file for PMC4456599
+INFO: Wrote the pdf file for PMC4456599
+ 81%|█████████████████████████████████████████████████████████████████████████████                  | 60/74 [09:12<02:00,  8.62s/it]INFO: Wrote the pdf file for PMC4915357
+INFO: Wrote the pdf file for PMC4915357
+ 82%|██████████████████████████████████████████████████████████████████████████████▎                | 61/74 [09:17<01:38,  7.54s/it]INFO: Wrote the pdf file for PMC4786315
+INFO: Wrote the pdf file for PMC4786315
+ 84%|███████████████████████████████████████████████████████████████████████████████▌               | 62/74 [09:25<01:32,  7.70s/it]INFO: Wrote the pdf file for PMC3519842
+INFO: Wrote the pdf file for PMC3519842
+ 85%|████████████████████████████████████████████████████████████████████████████████▉              | 63/74 [09:31<01:19,  7.26s/it]INFO: Wrote the pdf file for PMC7099212
+INFO: Wrote the pdf file for PMC7099212
+ 86%|██████████████████████████████████████████████████████████████████████████████████▏            | 64/74 [09:41<01:20,  8.09s/it]INFO: Wrote the pdf file for PMC5143358
+INFO: Wrote the pdf file for PMC5143358
+ 88%|███████████████████████████████████████████████████████████████████████████████████▍           | 65/74 [09:50<01:13,  8.15s/it]INFO: Wrote the pdf file for PMC2864741
+INFO: Wrote the pdf file for PMC2864741
+ 91%|██████████████████████████████████████████████████████████████████████████████████████         | 67/74 [09:59<00:42,  6.02s/it]INFO: Wrote the pdf file for PMC4514881
+INFO: Wrote the pdf file for PMC4514881
+ 92%|███████████████████████████████████████████████████████████████████████████████████████▎       | 68/74 [10:06<00:37,  6.28s/it]INFO: Wrote the pdf file for PMC3290568
+INFO: Wrote the pdf file for PMC3290568
+ 93%|████████████████████████████████████████████████████████████████████████████████████████▌      | 69/74 [10:12<00:31,  6.25s/it]INFO: Wrote the pdf file for PMC3461017
+INFO: Wrote the pdf file for PMC3461017
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████▊     | 70/74 [10:17<00:23,  5.88s/it]INFO: Wrote the pdf file for PMC4212918
+INFO: Wrote the pdf file for PMC4212918
+100%|███████████████████████████████████████████████████████████████████████████████████████████████| 74/74 [10:27<00:00,  8.48s/it]
+
+C:\Users\shiwa>
