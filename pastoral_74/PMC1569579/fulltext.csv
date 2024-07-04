@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,16433101
+source,MED
+pmid,16433101
+pmcid,PMC1569579
+fullTextIdList,{'fullTextId': 'PMC1569579'}
+doi,10.1098/rstb.2005.1754
+title,Climate science and famine early warning.
+authorString,"Verdin J, Funk C, Senay G, Choularton R."
+authorList,"{'author': [{'fullName': 'Verdin J', 'firstName': 'James', 'lastName': 'Verdin', 'initials': 'J', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'US Geological Survey, National Center for Earth Resources Observation and Science, Sioux Falls, SD 57198, USA. verdin@usgs.gov'}}}, {'fullName': 'Funk C', 'firstName': 'Chris', 'lastName': 'Funk', 'initials': 'C'}, {'fullName': 'Senay G', 'firstName': 'Gabriel', 'lastName': 'Senay', 'initials': 'G'}, {'fullName': 'Choularton R', 'firstName': 'Richard', 'lastName': 'Choularton', 'initials': 'R', 'authorId': {'@type': 'ORCID', '#text': '0000-0003-3275-2883'}}]}"
+authorIdList,"{'authorId': {'@type': 'ORCID', '#text': '0000-0003-3275-2883'}}"
+dataLinksTagsList,{'dataLinkstag': 'altmetrics'}
+journalInfo,"{'issue': '1463', 'volume': '360', 'journalIssueId': '1292882', 'dateOfPublication': '2005 Nov', 'monthOfPublication': '11', 'yearOfPublication': '2005', 'printPublicationDate': '2005-11-01', 'journal': {'title': 'Philosophical transactions of the Royal Society of London. Series B, Biological sciences', 'ISOAbbreviation': 'Philos Trans R Soc Lond B Biol Sci', 'medlineAbbreviation': 'Philos Trans R Soc Lond B Biol Sci', 'NLMid': '7503623', 'ISSN': '0962-8436', 'ESSN': '1471-2970'}}"
+pubYear,2005
+pageInfo,2155-2168
+abstractText,"Food security assessment in sub-Saharan Africa requires simultaneous consideration of multiple socio-economic and environmental variables. Early identification of populations at risk enables timely and appropriate action. Since large and widely dispersed populations depend on rainfed agriculture and pastoralism, climate monitoring and forecasting are important inputs to food security analysis. Satellite rainfall estimates (RFE) fill in gaps in station observations, and serve as input to drought index maps and crop water balance models. Gridded rainfall time-series give historical context, and provide a basis for quantitative interpretation of seasonal precipitation forecasts. RFE are also used to characterize flood hazards, in both simple indices and stream flow models. In the future, many African countries are likely to see negative impacts on subsistence agriculture due to the effects of global warming. Increased climate variability is forecast, with more frequent extreme events. Ethiopia requires special attention. Already facing a food security emergency, troubling persistent dryness has been observed in some areas, associated with a positive trend in Indian Ocean sea surface temperatures. Increased African capacity for rainfall observation, forecasting, data management and modelling applications is urgently needed. Managing climate change and increased climate variability require these fundamental technical capacities if creative coping strategies are to be devised."
+affiliation,"US Geological Survey, National Center for Earth Resources Observation and Science, Sioux Falls, SD 57198, USA. verdin@usgs.gov"
+publicationStatus,ppublish
+language,eng
+pubModel,Print
+pubTypeList,"{'pubType': ['research-article', 'Review', 'Journal Article']}"
+meshHeadingList,"{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Crops, Agricultural', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'GD', 'qualifierName': 'growth & development', 'majorTopic_YN': 'Y'}, {'abbreviation': 'ST', 'qualifierName': 'standards', 'majorTopic_YN': 'N'}, {'abbreviation': 'SD', 'qualifierName': 'supply & distribution', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'N', 'descriptorName': 'Environment'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Greenhouse Effect'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Climate'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Rain'}, {'majorTopic_YN': 'N', 'descriptorName': 'Socioeconomic Factors'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Food Supply'}, {'majorTopic_YN': 'N', 'descriptorName': 'Africa South of the Sahara'}, {'majorTopic_YN': 'N', 'descriptorName': 'Ethiopia'}]}"
+subsetList,"{'subset': {'code': 'IM', 'name': 'Index Medicus'}}"
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://europepmc.org/articles/pmc1569579?pdf=render'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1098/rstb.2005.1754'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC1569579'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC1569579?pdf=render'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1098/rstb.2005.1754'}]}"
+isOpenAccess,N
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,15
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2006-04-13
+dateOfCreation,2006-01-26
+firstIndexDate,2009-12-23
+fullTextReceivedDate,2020-07-11
+dateOfRevision,2018-11-13
+firstPublicationDate,2005-11-01
