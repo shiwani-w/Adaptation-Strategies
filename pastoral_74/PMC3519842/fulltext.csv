@@ -1,0 +1,50 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,23240003
+source,MED
+pmid,23240003
+pmcid,PMC3519842
+fullTextIdList,{'fullTextId': 'PMC3519842'}
+doi,10.1371/journal.pone.0051187
+title,Community-based management: under what conditions do Sámi pastoralists manage pastures sustainably?
+authorString,"Hausner VH, Fauchald P, Jernsletten JL."
+authorList,"{'author': [{'fullName': 'Hausner VH', 'firstName': 'Vera H', 'lastName': 'Hausner', 'initials': 'VH', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Department of Arctic and Marine Biology, University of Tromsø, Tromsø, Norway. vera.hausner@uit.no'}}}, {'fullName': 'Fauchald P', 'firstName': 'Per', 'lastName': 'Fauchald', 'initials': 'P'}, {'fullName': 'Jernsletten JL', 'firstName': 'Johnny-Leo', 'lastName': 'Jernsletten', 'initials': 'JL'}]}"
+dataLinksTagsList,"{'dataLinkstag': ['altmetrics', 'supporting_data']}"
+journalInfo,"{'issue': '12', 'volume': '7', 'journalIssueId': '1988969', 'dateOfPublication': '2012', 'monthOfPublication': '0', 'yearOfPublication': '2012', 'printPublicationDate': '2012-01-01', 'journal': {'title': 'PloS one', 'ISOAbbreviation': 'PLoS One', 'medlineAbbreviation': 'PLoS One', 'NLMid': '101285081', 'ISSN': '1932-6203', 'ESSN': '1932-6203'}}"
+pubYear,2012
+pageInfo,e51187
+abstractText,"Community-based management (CBM) has been implemented in socio-ecological systems (SES) worldwide. CBM has also been the prevailing policy in Sámi pastoral SES in Norway, but the outcomes tend to vary extensively among resource groups (""siidas""). We asked why do some siidas self-organize to manage common pool resources sustainably and others do not? To answer this question we used a mixed methods approach. First, in the statistical analyses we analyzed the relationship between sustainability indicators and structural variables. We found that small winter pastures that are shared by few siidas were managed more sustainably than larger pastures. Seasonal siida stability, i.e., a low turnover of pastoralists working together throughout the year, and equality among herders, also contributed to more sustainable outcomes. Second, interviews were conducted in the five largest pastures to explain the relationships between the structural variables and sustainability. The pastoralists expressed a high level of agreement with respect to sustainable policies, but reported a low level of trust and cooperation among the siidas. The pastoralists requested siida tenures or clear rules and sanctioning mechanisms by an impartial authority rather than flexible organization or more autonomy for the siidas. The lack of nestedness in self-organization for managing pastures on larger scales, combined with the past economic policies, could explain why CBM is less sustainable on the largest winter pastures. We conclude that the scale mis-match between self-organization and the formal governance is a key condition for sustainability."
+affiliation,"Department of Arctic and Marine Biology, University of Tromsø, Tromsø, Norway. vera.hausner@uit.no"
+publicationStatus,ppublish
+language,eng
+pubModel,Print-Electronic
+pubTypeList,"{'pubType': [""Research Support, Non-U.S. Gov't"", 'research-article', 'Journal Article']}"
+meshHeadingList,"{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Organizations'}, {'majorTopic_YN': 'N', 'descriptorName': 'Norway'}]}"
+subsetList,"{'subset': {'code': 'IM', 'name': 'Index Medicus'}}"
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0051187&type=printable'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23240003/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23240003/pdf/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pone.0051187'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3519842'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3519842?pdf=render'}]}"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,5
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2013-05-30
+dateOfCreation,2012-12-15
+firstIndexDate,2012-12-19
+fullTextReceivedDate,2020-07-12
+dateOfRevision,2021-10-21
+electronicPublicationDate,2012-12-11
+firstPublicationDate,2012-12-11
